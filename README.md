@@ -1,1 +1,1 @@
-# omnicon-material-design-icons-updated
+# omnicon material-design-icons-updated
