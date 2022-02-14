@@ -1,3 +1,5 @@
+const { dirname } = require('path')
+
 module.exports = {
   prefix: 'gm',
   regex: {
