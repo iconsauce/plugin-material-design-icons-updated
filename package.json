@@ -1,13 +1,21 @@
 {
   "name": "@iconsauce/plugin-material-design-icons-updated",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "This plugin is created to work with iconsauce",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "build": "rm -rf lib || true && tsc --declaration && mv build lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "material-design-icons-updated": "^7.0.0"
+  },
+  "devDependencies": {
+    "@iconsauce/core": "0.1.2",
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "eslint": "^8.7.0",
+    "typescript": "^4.4.3"
   },
   "repository": {
     "type": "git",
