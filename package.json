@@ -4,8 +4,7 @@
   "description": "This plugin is created to work with iconsauce",
   "main": "lib/index.js",
   "scripts": {
-    "build": "rm -rf lib || true && tsc --declaration && mv build lib",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rm -rf lib || true && tsc --declaration && mv build lib"
   },
   "dependencies": {
     "material-design-icons-updated": "^7.0.0"
