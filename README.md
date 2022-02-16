@@ -1,6 +1,6 @@
 # plugin-material-design-icons-updated
 
-This plugin scrapes [Material Design Icons](https://fonts.google.com/icons) from `material-design-icons-updated` node module which contains svg versions.
+This plugin scrapes [Google Material Design Icons](https://fonts.google.com/icons) collected by `material-design-icons-updated` node module which contains svg versions.
 
 To use it with `iconsauce`:
 
