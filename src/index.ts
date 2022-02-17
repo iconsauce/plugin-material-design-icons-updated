@@ -1,7 +1,7 @@
 import { dirname } from 'path'
 import { IconsaucePlugin } from '@iconsauce/plugin'
 
-export const materialDesignIconsUpdatedPlugin: IconsaucePlugin = {
+const materialDesignIconsUpdatedPlugin: IconsaucePlugin = {
   prefix: 'miu',
   regex: {
     code: /(miu)(\/{1}[0-9a-z-]+){1,2}/gm,
@@ -10,3 +10,5 @@ export const materialDesignIconsUpdatedPlugin: IconsaucePlugin = {
   selector: (path: RegExpMatchArray) => `miu/${path[3]}/${path[4].replace(/[_]+/g, '-')}`,
   path: `${dirname(require.resolve('material-design-icons-updated/package.json'))}/**/+(filled|outline|round|sharp)/**/*_24px.svg`,
 }
+
+module.exports = materialDesignIconsUpdatedPlugin
