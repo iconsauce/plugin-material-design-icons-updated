@@ -2,6 +2,8 @@
 
 This plugin scrapes [Google Material Design Icons](https://fonts.google.com/icons) collected by [material-design-icons-updated](https://github.com/stramel/material-design-icons-updated) which contains svg versions.
 
+For more infos go to [iconsauce docs][iconsauce-docs].
+
 To use it with `iconsauce`:
 
 ```js
@@ -60,3 +62,5 @@ This plug-in will generate only icons used:
 .miu\/filled\/info::before { content: "\ea05" }
 .miu\/filled\/warning::before { content: "\ea08" }
 ```
+
+[iconsauce-docs]: https://iconsauce.github.io/docs/
