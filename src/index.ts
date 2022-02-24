@@ -11,5 +11,5 @@ const materialDesignIconsUpdatedPlugin: IconsaucePlugin = {
   path: `${dirname(require.resolve('material-design-icons-updated/package.json'))}/**/+(filled|outline|round|sharp)/**/*_24px.svg`,
 }
 
-export { materialDesignIconsUpdatedPlugin }
+export default materialDesignIconsUpdatedPlugin
 module.exports = materialDesignIconsUpdatedPlugin
